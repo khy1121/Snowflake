@@ -1,0 +1,1 @@
+{\n  "friendCodeFormat": {\n    "length": 8,\n    "pattern": "^[A-Z0-9]{8}$",\n    "example": "AB12CD34"\n  },\n  "displayNameTemplates": [\n    "용감한 정비사",\n    "신비한 도깨비",\n    "빠른 구미호",\n    "똑똑한 저승사자",\n    "친절한 선녀",\n    "신나는 토끼",\n    "신중한 여우",\n    "밝은 해님",\n    "조용한 달님",\n    "행운의 별님"\n  ]\n}\n
