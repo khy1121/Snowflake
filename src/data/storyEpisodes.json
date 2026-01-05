@@ -1,0 +1,247 @@
+{
+  "chapters": [
+    {
+      "chapterId": 1,
+      "title": "프롤로그: 정비소의 문을 열다",
+      "description": "잊혀진 설화들을 복원하는 정비소의 시작",
+      "episodes": [
+        {
+          "episodeId": 101,
+          "title": "첫 손님",
+          "speaker": "narrator",
+          "text": "오래된 설화들이 사라져가고 있어요. 망각상회의 음모 때문이래요. 설화 파편들을 모아 정비소를 세우고, 잊혀진 이야기들을 되살려야 해요!",
+          "reward": { "gold": 50, "fragments": 5 },
+          "trigger": { "type": "stage", "value": 1 }
+        },
+        {
+          "episodeId": 102,
+          "title": "도깨비 기술자 등장",
+          "speaker": "companion_1",
+          "text": "어라? 여긴 뭐하는 곳이야? 아, 설화 파편이 많네! 내가 도와줄까?",
+          "reward": { "gold": 100, "fragments": 10, "companionShard": { "companion_1": 5 } },
+          "trigger": { "type": "stage", "value": 3 }
+        },
+        {
+          "episodeId": 103,
+          "title": "첫 보스 격파",
+          "speaker": "narrator",
+          "text": "망각의 그림자를 격파했어요! 설화 정비소의 첫 승리예요. 더 강해져야 할 것 같아요.",
+          "reward": { "gold": 200, "fragments": 20 },
+          "trigger": { "type": "stage", "value": 10 }
+        },
+        {
+          "episodeId": 104,
+          "title": "파편의 비밀",
+          "speaker": "companion_2",
+          "text": "이 파편들... 단순한 조각이 아니야. 각각이 하나의 이야기를 담고 있어. 우리가 복원해야 할 이유가 여기 있어.",
+          "reward": { "gold": 150, "fragments": 15 },
+          "trigger": { "type": "stage", "value": 5 }
+        },
+        {
+          "episodeId": 105,
+          "title": "정비소 확장",
+          "speaker": "narrator",
+          "text": "파편들이 모여 정비소가 커지고 있어요. 더 많은 동료들이 모여들고 있어요!",
+          "reward": { "gold": 100, "fragments": 10, "companionShard": { "companion_2": 5 } },
+          "trigger": { "type": "stage", "value": 8 }
+        },
+        {
+          "episodeId": 106,
+          "title": "망각상회의 그림자",
+          "speaker": "narrator",
+          "text": "정비소의 활동이 커질수록, 망각상회의 방해도 심해지고 있어요. 뭔가 큰 일이 일어날 것 같은데...",
+          "reward": { "gold": 200, "fragments": 25 },
+          "trigger": { "type": "stage", "value": 9 }
+        }
+      ]
+    },
+    {
+      "chapterId": 2,
+      "title": "1장: 산신의 수호자들",
+      "description": "산 위의 설화들을 복원하다",
+      "episodes": [
+        {
+          "episodeId": 201,
+          "title": "장승의 등장",
+          "speaker": "companion_3",
+          "text": "나는 산의 입구를 지키는 장승이야. 이곳의 설화들이 사라지는 걸 봤어. 함께 막아야 해!",
+          "reward": { "gold": 300, "fragments": 30, "companionShard": { "companion_3": 10 } },
+          "trigger": { "type": "stage", "value": 15 }
+        },
+        {
+          "episodeId": 202,
+          "title": "산신의 분노",
+          "speaker": "narrator",
+          "text": "산 위의 설화들이 망각되면서 산신의 분노가 커지고 있어요. 파편들을 모아 진정시켜야 해요.",
+          "reward": { "gold": 250, "fragments": 25 },
+          "trigger": { "type": "stage", "value": 12 }
+        },
+        {
+          "episodeId": 203,
+          "title": "해태의 감시",
+          "speaker": "companion_4",
+          "text": "나는 정비소의 보안을 맡은 해태야. 망각상회의 움직임이 이상해. 조심해야 해.",
+          "reward": { "gold": 350, "fragments": 35, "companionShard": { "companion_4": 10 } },
+          "trigger": { "type": "stage", "value": 18 }
+        },
+        {
+          "episodeId": 204,
+          "title": "산의 기억",
+          "speaker": "narrator",
+          "text": "산에 깃든 오래된 기억들이 되살아나고 있어요. 더 많은 설화를 복원해야 해요.",
+          "reward": { "gold": 300, "fragments": 30 },
+          "trigger": { "type": "stage", "value": 14 }
+        },
+        {
+          "episodeId": 205,
+          "title": "1장 클리어",
+          "speaker": "narrator",
+          "text": "산의 설화들이 복원되었어요! 하지만 이건 시작일 뿐이야. 더 많은 이야기들이 기다리고 있어.",
+          "reward": { "gold": 500, "fragments": 50 },
+          "trigger": { "type": "stage", "value": 20 }
+        }
+      ]
+    },
+    {
+      "chapterId": 3,
+      "title": "2장: 하늘의 기록자",
+      "description": "하늘에서 내려온 설화들",
+      "episodes": [
+        {
+          "episodeId": 301,
+          "title": "삼족오의 기록",
+          "speaker": "companion_5",
+          "text": "나는 하늘의 기록을 담당하는 삼족오야. 설화들의 기록이 사라지고 있어. 함께 기록을 되살려야 해.",
+          "reward": { "gold": 400, "fragments": 40, "companionShard": { "companion_5": 15 } },
+          "trigger": { "type": "stage", "value": 25 }
+        },
+        {
+          "episodeId": 302,
+          "title": "하늘의 변화",
+          "speaker": "narrator",
+          "text": "하늘의 설화들이 왜곡되고 있어요. 망각상회의 방해가 더 심해지고 있는 것 같아요.",
+          "reward": { "gold": 350, "fragments": 35 },
+          "trigger": { "type": "stage", "value": 22 }
+        },
+        {
+          "episodeId": 303,
+          "title": "이무기의 네트워크",
+          "speaker": "companion_6",
+          "text": "나는 이무기야. 물길을 따라 정보를 전달하지. 망각상회의 움직임이 점점 커지고 있어. 주의해.",
+          "reward": { "gold": 450, "fragments": 45, "companionShard": { "companion_6": 15 } },
+          "trigger": { "type": "stage", "value": 28 }
+        },
+        {
+          "episodeId": 304,
+          "title": "기록의 복원",
+          "speaker": "narrator",
+          "text": "하늘의 기록들이 다시 모여들고 있어요. 설화들의 진실이 드러나기 시작했어요.",
+          "reward": { "gold": 400, "fragments": 40 },
+          "trigger": { "type": "stage", "value": 26 }
+        },
+        {
+          "episodeId": 305,
+          "title": "2장 클리어",
+          "speaker": "narrator",
+          "text": "하늘의 설화들이 복원되었어요! 정비소는 점점 더 강해지고 있어요. 하지만 망각상회의 진짜 목적은 뭘까요?",
+          "reward": { "gold": 600, "fragments": 60 },
+          "trigger": { "type": "stage", "value": 30 }
+        }
+      ]
+    },
+    {
+      "chapterId": 4,
+      "title": "3장: 인연의 봉인",
+      "description": "사람들의 이야기를 복원하다",
+      "episodes": [
+        {
+          "episodeId": 401,
+          "title": "구미호의 제안",
+          "speaker": "companion_7",
+          "text": "나는 구미호야. 사람들의 이야기를 잘 알지. 망각상회와 협상할 방법이 있을 수도 있어. 하지만... 믿을 수 있을까?",
+          "reward": { "gold": 500, "fragments": 50, "companionShard": { "companion_7": 20 } },
+          "trigger": { "type": "stage", "value": 35 }
+        },
+        {
+          "episodeId": 402,
+          "title": "춘향의 인연",
+          "speaker": "companion_8",
+          "text": "나는 춘향이야. 인연의 봉인을 풀 수 있어. 설화들 사이의 연결고리를 되살려야 해.",
+          "reward": { "gold": 550, "fragments": 55, "companionShard": { "companion_8": 20 } },
+          "trigger": { "type": "stage", "value": 38 }
+        },
+        {
+          "episodeId": 403,
+          "title": "사람들의 이야기",
+          "speaker": "narrator",
+          "text": "사람들의 설화들이 복원되고 있어요. 각각의 이야기가 얼마나 소중한지 알게 되었어요.",
+          "reward": { "gold": 500, "fragments": 50 },
+          "trigger": { "type": "stage", "value": 32 }
+        },
+        {
+          "episodeId": 404,
+          "title": "홍길동의 침투",
+          "speaker": "companion_9",
+          "text": "나는 홍길동이야. 망각상회의 본거지를 찾아낼 수 있어. 함께 진실을 밝혀보자.",
+          "reward": { "gold": 600, "fragments": 60, "companionShard": { "companion_9": 20 } },
+          "trigger": { "type": "stage", "value": 42 }
+        },
+        {
+          "episodeId": 405,
+          "title": "3장 클리어",
+          "speaker": "narrator",
+          "text": "인연의 봉인이 풀렸어요! 이제 망각상회의 진짜 목적이 무엇인지 알 수 있을 것 같아요.",
+          "reward": { "gold": 700, "fragments": 70 },
+          "trigger": { "type": "stage", "value": 40 }
+        }
+      ]
+    },
+    {
+      "chapterId": 5,
+      "title": "4장: 망각상회의 음모",
+      "description": "최종 진실을 마주하다",
+      "episodes": [
+        {
+          "episodeId": 501,
+          "title": "바리공주의 정화",
+          "speaker": "companion_10",
+          "text": "나는 바리공주야. 왜곡된 설화들을 정화할 수 있어. 망각상회의 음모를 막아야 해.",
+          "reward": { "gold": 700, "fragments": 70, "companionShard": { "companion_10": 25 } },
+          "trigger": { "type": "stage", "value": 45 }
+        },
+        {
+          "episodeId": 502,
+          "title": "처용의 수호",
+          "speaker": "companion_11",
+          "text": "나는 처용이야. 악을 쫓는 춤을 춘다네. 정비소를 지키겠어. 망각상회는 절대 못 들어와!",
+          "reward": { "gold": 750, "fragments": 75, "companionShard": { "companion_11": 25 } },
+          "trigger": { "type": "stage", "value": 48 }
+        },
+        {
+          "episodeId": 503,
+          "title": "망각상회의 진짜 목적",
+          "speaker": "narrator",
+          "text": "망각상회는 설화들을 사라지게 하려는 게 아니었어. 그들은 설화들을 독점하려고 했어. 우리는 그걸 막아야 해.",
+          "reward": { "gold": 800, "fragments": 80 },
+          "trigger": { "type": "stage", "value": 46 }
+        },
+        {
+          "episodeId": 504,
+          "title": "최종 결전의 준비",
+          "speaker": "narrator",
+          "text": "모든 동료들이 모였어요. 정비소는 이제 충분히 강해졌어요. 망각상회와의 최종 결전을 준비해야 해요.",
+          "reward": { "gold": 900, "fragments": 90 },
+          "trigger": { "type": "stage", "value": 49 }
+        },
+        {
+          "episodeId": 505,
+          "title": "에필로그: 새로운 시작",
+          "speaker": "narrator",
+          "text": "망각상회를 격파했어요! 설화들이 다시 세상에 퍼져나가고 있어요. 정비소의 진짜 일은 이제 시작이에요.",
+          "reward": { "gold": 1000, "fragments": 100 },
+          "trigger": { "type": "stage", "value": 50 }
+        }
+      ]
+    }
+  ]
+}

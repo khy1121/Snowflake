@@ -1,0 +1,220 @@
+{
+  "companions": [
+    {
+      "companionId": "dokkaebi_engineer",
+      "name": "도깨비 기술자",
+      "rarity": "rare",
+      "lore": "정비소의 주요 기술자. 설화 파편 수리에 능하다.",
+      "unlockType": "stage",
+      "unlockCondition": 3,
+      "maxLevel": 50,
+      "passiveBuff": {
+        "type": "goldGain",
+        "value": 0.1,
+        "description": "골드 획득량 +10%"
+      },
+      "upgradeCost": {
+        "fragments": 5,
+        "companionShards": 1
+      }
+    },
+    {
+      "companionId": "jangseung_guardian",
+      "name": "장승 수문장",
+      "rarity": "rare",
+      "lore": "산의 입구를 지키는 수문장. 방어력이 뛰어나다.",
+      "unlockType": "stage",
+      "unlockCondition": 15,
+      "maxLevel": 50,
+      "passiveBuff": {
+        "type": "hp",
+        "value": 0.15,
+        "description": "생명력 +15%"
+      },
+      "upgradeCost": {
+        "fragments": 8,
+        "companionShards": 2
+      }
+    },
+    {
+      "companionId": "haetae_guardian",
+      "name": "해태 감시자",
+      "rarity": "epic",
+      "lore": "정비소의 보안을 맡은 신성한 존재. 위험을 미리 감지한다.",
+      "unlockType": "stage",
+      "unlockCondition": 18,
+      "maxLevel": 60,
+      "passiveBuff": {
+        "type": "offlineEfficiency",
+        "value": 0.2,
+        "description": "오프라인 효율 +20%"
+      },
+      "upgradeCost": {
+        "fragments": 10,
+        "companionShards": 3
+      }
+    },
+    {
+      "companionId": "samjokoh_recorder",
+      "name": "삼족오 기록자",
+      "rarity": "epic",
+      "lore": "하늘의 기록을 담당하는 신비한 새. 모든 이야기를 기억한다.",
+      "unlockType": "stage",
+      "unlockCondition": 25,
+      "maxLevel": 60,
+      "passiveBuff": {
+        "type": "critChance",
+        "value": 0.1,
+        "description": "크리티컬 확률 +10%"
+      },
+      "upgradeCost": {
+        "fragments": 12,
+        "companionShards": 4
+      }
+    },
+    {
+      "companionId": "imugi_network",
+      "name": "이무기 네트워크",
+      "rarity": "epic",
+      "lore": "물길을 따라 정보를 전달하는 신비한 존재. 소식통이다.",
+      "unlockType": "stage",
+      "unlockCondition": 28,
+      "maxLevel": 60,
+      "passiveBuff": {
+        "type": "atk",
+        "value": 0.12,
+        "description": "공격력 +12%"
+      },
+      "upgradeCost": {
+        "fragments": 12,
+        "companionShards": 4
+      }
+    },
+    {
+      "companionId": "gumiho_negotiator",
+      "name": "구미호 협상가",
+      "rarity": "legendary",
+      "lore": "사람들의 이야기를 잘 아는 구미호. 협상에 능하다.",
+      "unlockType": "achievement",
+      "unlockCondition": "total_battles_100",
+      "maxLevel": 70,
+      "passiveBuff": {
+        "type": "goldGain",
+        "value": 0.2,
+        "description": "골드 획득량 +20%"
+      },
+      "upgradeCost": {
+        "fragments": 15,
+        "companionShards": 5
+      }
+    },
+    {
+      "companionId": "honggildong_infiltrator",
+      "name": "홍길동 침투자",
+      "rarity": "legendary",
+      "lore": "의적 홍길동. 불가능한 임무를 가능하게 만든다.",
+      "unlockType": "stage",
+      "unlockCondition": 42,
+      "maxLevel": 70,
+      "passiveBuff": {
+        "type": "critDamage",
+        "value": 0.3,
+        "description": "크리티컬 데미지 +30%"
+      },
+      "upgradeCost": {
+        "fragments": 18,
+        "companionShards": 6
+      }
+    },
+    {
+      "companionId": "chunhyang_bond",
+      "name": "춘향 인연",
+      "rarity": "legendary",
+      "lore": "인연의 봉인을 풀 수 있는 춘향. 설화들을 연결한다.",
+      "unlockType": "stage",
+      "unlockCondition": 38,
+      "maxLevel": 70,
+      "passiveBuff": {
+        "type": "atk",
+        "value": 0.15,
+        "description": "공격력 +15%"
+      },
+      "upgradeCost": {
+        "fragments": 16,
+        "companionShards": 5
+      }
+    },
+    {
+      "companionId": "bariprincess_purify",
+      "name": "바리공주 정화",
+      "rarity": "legendary",
+      "lore": "왜곡된 설화를 정화할 수 있는 바리공주. 치유자다.",
+      "unlockType": "stage",
+      "unlockCondition": 45,
+      "maxLevel": 70,
+      "passiveBuff": {
+        "type": "hp",
+        "value": 0.25,
+        "description": "생명력 +25%"
+      },
+      "upgradeCost": {
+        "fragments": 18,
+        "companionShards": 6
+      }
+    },
+    {
+      "companionId": "cheongyong_protector",
+      "name": "처용 수호자",
+      "rarity": "legendary",
+      "lore": "악을 쫓는 춤을 추는 처용. 정비소의 최강 수호자다.",
+      "unlockType": "stage",
+      "unlockCondition": 48,
+      "maxLevel": 70,
+      "passiveBuff": {
+        "type": "offlineEfficiency",
+        "value": 0.3,
+        "description": "오프라인 효율 +30%"
+      },
+      "upgradeCost": {
+        "fragments": 20,
+        "companionShards": 7
+      }
+    },
+    {
+      "companionId": "moonjeongshin_gatekeeper",
+      "name": "문전신 수호",
+      "rarity": "rare",
+      "lore": "집의 출입을 지키는 문전신. 작지만 강하다.",
+      "unlockType": "quest",
+      "unlockCondition": "daily_battle_3",
+      "maxLevel": 50,
+      "passiveBuff": {
+        "type": "atk",
+        "value": 0.08,
+        "description": "공격력 +8%"
+      },
+      "upgradeCost": {
+        "fragments": 6,
+        "companionShards": 2
+      }
+    },
+    {
+      "companionId": "dangun_symbol",
+      "name": "단군 상징",
+      "rarity": "epic",
+      "lore": "건국의 상징. 정비소의 정신적 지주다.",
+      "unlockType": "achievement",
+      "unlockCondition": "stage_50",
+      "maxLevel": 60,
+      "passiveBuff": {
+        "type": "goldGain",
+        "value": 0.15,
+        "description": "골드 획득량 +15%"
+      },
+      "upgradeCost": {
+        "fragments": 14,
+        "companionShards": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "dailyQuests": [
+    {
+      "questId": "daily_battle_3",
+      "title": "전투 3회",
+      "description": "전투에서 3번 승리하세요",
+      "type": "battle",
+      "targetCount": 3,
+      "goldReward": 100,
+      "icon": "⚔️"
+    },
+    {
+      "questId": "daily_upgrade_5",
+      "title": "강화 5회",
+      "description": "업그레이드를 5번 구매하세요",
+      "type": "upgrade",
+      "targetCount": 5,
+      "goldReward": 150,
+      "icon": "💪"
+    },
+    {
+      "questId": "daily_stage_5",
+      "title": "스테이지 5회 클리어",
+      "description": "5개의 스테이지를 클리어하세요",
+      "type": "stage",
+      "targetCount": 5,
+      "goldReward": 200,
+      "icon": "🎯"
+    },
+    {
+      "questId": "daily_offline_claim",
+      "title": "오프라인 보상 수령",
+      "description": "오프라인 보상을 1회 수령하세요",
+      "type": "offline",
+      "targetCount": 1,
+      "goldReward": 50,
+      "icon": "✨"
+    },
+    {
+      "questId": "daily_total_gold_1000",
+      "title": "골드 1000 획득",
+      "description": "전투로 총 1000 골드를 획득하세요",
+      "type": "gold",
+      "targetCount": 1000,
+      "goldReward": 300,
+      "icon": "💰"
+    },
+    {
+      "questId": "daily_stage_10_clear",
+      "title": "10스테이지 클리어",
+      "description": "10스테이지를 클리어하세요",
+      "type": "specificStage",
+      "targetCount": 1,
+      "targetStage": 10,
+      "goldReward": 250,
+      "icon": "👑"
+    }
+  ]
+}

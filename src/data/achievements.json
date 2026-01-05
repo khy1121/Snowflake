@@ -1,0 +1,94 @@
+{
+  "achievements": [
+    {
+      "achievementId": "first_battle",
+      "title": "첫 전투",
+      "description": "첫 번째 전투에서 승리하세요",
+      "type": "milestone",
+      "icon": "⚔️",
+      "reward": 50
+    },
+    {
+      "achievementId": "stage_10",
+      "title": "첫 보스 격파",
+      "description": "10스테이지(첫 보스)를 클리어하세요",
+      "type": "milestone",
+      "icon": "👑",
+      "reward": 100
+    },
+    {
+      "achievementId": "stage_50",
+      "title": "최종 보스 격파",
+      "description": "50스테이지(최종 보스)를 클리어하세요",
+      "type": "milestone",
+      "icon": "🏆",
+      "reward": 500
+    },
+    {
+      "achievementId": "total_battles_100",
+      "title": "백전노장",
+      "description": "총 100회 전투에서 승리하세요",
+      "type": "cumulative",
+      "targetValue": 100,
+      "icon": "🎖️",
+      "reward": 200
+    },
+    {
+      "achievementId": "total_upgrades_50",
+      "title": "강화의 대가",
+      "description": "총 50번 업그레이드하세요",
+      "type": "cumulative",
+      "targetValue": 50,
+      "icon": "💎",
+      "reward": 250
+    },
+    {
+      "achievementId": "total_gold_100k",
+      "title": "백만장자",
+      "description": "총 100,000 골드를 획득하세요",
+      "type": "cumulative",
+      "targetValue": 100000,
+      "icon": "💰",
+      "reward": 300
+    },
+    {
+      "achievementId": "atk_level_50",
+      "title": "강력한 파편",
+      "description": "공격력을 50 레벨까지 올리세요",
+      "type": "upgrade",
+      "upgradeId": "atk",
+      "targetLevel": 50,
+      "icon": "⚡",
+      "reward": 150
+    },
+    {
+      "achievementId": "hp_level_50",
+      "title": "견고한 정비소",
+      "description": "생명력을 50 레벨까지 올리세요",
+      "type": "upgrade",
+      "upgradeId": "hp",
+      "targetLevel": 50,
+      "icon": "🛡️",
+      "reward": 150
+    },
+    {
+      "achievementId": "crit_chance_50",
+      "title": "운의 화신",
+      "description": "크리티컬 확률을 50 레벨까지 올리세요",
+      "type": "upgrade",
+      "upgradeId": "critChance",
+      "targetLevel": 50,
+      "icon": "✨",
+      "reward": 200
+    },
+    {
+      "achievementId": "offline_reward_10",
+      "title": "일하는 정비소",
+      "description": "오프라인 보상을 10회 수령하세요",
+      "type": "cumulative",
+      "targetValue": 10,
+      "icon": "🌙",
+      "reward": 100
+    }
+  ]
+}

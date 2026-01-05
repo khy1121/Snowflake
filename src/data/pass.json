@@ -1,0 +1,131 @@
+{
+  "seasons": [
+    {
+      "seasonId": "season_1",
+      "name": "시즌 1: 설화의 시작",
+      "description": "정비소의 첫 번째 시즌",
+      "startAt": 1704067200000,
+      "endAt": 1711929600000,
+      "durationDays": 30,
+      "levels": 30,
+      "expPerLevel": 100,
+      "rewardsFree": [
+        {
+          "level": 1,
+          "rewards": [
+            { "type": "gold", "amount": 100 },
+            { "type": "fragments", "amount": 5 }
+          ]
+        },
+        {
+          "level": 5,
+          "rewards": [
+            { "type": "gold", "amount": 500 },
+            { "type": "fragments", "amount": 20 }
+          ]
+        },
+        {
+          "level": 10,
+          "rewards": [
+            { "type": "gold", "amount": 1000 },
+            { "type": "fragments", "amount": 50 },
+            { "type": "cosmeticToken", "amount": 50 }
+          ]
+        },
+        {
+          "level": 15,
+          "rewards": [
+            { "type": "gold", "amount": 1500 },
+            { "type": "fragments", "amount": 75 }
+          ]
+        },
+        {
+          "level": 20,
+          "rewards": [
+            { "type": "gold", "amount": 2000 },
+            { "type": "fragments", "amount": 100 },
+            { "type": "cosmeticToken", "amount": 100 }
+          ]
+        },
+        {
+          "level": 25,
+          "rewards": [
+            { "type": "gold", "amount": 2500 },
+            { "type": "fragments", "amount": 125 }
+          ]
+        },
+        {
+          "level": 30,
+          "rewards": [
+            { "type": "gold", "amount": 3000 },
+            { "type": "fragments", "amount": 150 },
+            { "type": "cosmeticToken", "amount": 200 },
+            { "type": "cosmeticItem", "itemId": "skin_legendary_1" }
+          ]
+        }
+      ],
+      "rewardsPremium": [
+        {
+          "level": 1,
+          "rewards": [
+            { "type": "gold", "amount": 300 },
+            { "type": "fragments", "amount": 15 },
+            { "type": "cosmeticToken", "amount": 50 }
+          ]
+        },
+        {
+          "level": 5,
+          "rewards": [
+            { "type": "gold", "amount": 1000 },
+            { "type": "fragments", "amount": 50 },
+            { "type": "cosmeticToken", "amount": 100 }
+          ]
+        },
+        {
+          "level": 10,
+          "rewards": [
+            { "type": "gold", "amount": 2000 },
+            { "type": "fragments", "amount": 100 },
+            { "type": "companionShard", "companionId": "dangun_symbol", "amount": 10 },
+            { "type": "cosmeticToken", "amount": 150 }
+          ]
+        },
+        {
+          "level": 15,
+          "rewards": [
+            { "type": "gold", "amount": 2500 },
+            { "type": "fragments", "amount": 125 },
+            { "type": "cosmeticToken", "amount": 200 }
+          ]
+        },
+        {
+          "level": 20,
+          "rewards": [
+            { "type": "gold", "amount": 3000 },
+            { "type": "fragments", "amount": 150 },
+            { "type": "companionShard", "companionId": "dangun_symbol", "amount": 15 },
+            { "type": "cosmeticToken", "amount": 250 }
+          ]
+        },
+        {
+          "level": 25,
+          "rewards": [
+            { "type": "gold", "amount": 3500 },
+            { "type": "fragments", "amount": 175 },
+            { "type": "cosmeticToken", "amount": 300 }
+          ]
+        },
+        {
+          "level": 30,
+          "rewards": [
+            { "type": "gold", "amount": 5000 },
+            { "type": "fragments", "amount": 200 },
+            { "type": "companionShard", "companionId": "dangun_symbol", "amount": 25 },
+            { "type": "cosmeticToken", "amount": 500 },
+            { "type": "cosmeticItem", "itemId": "skin_premium_1" }
+          ]
+        }
+      ]
+    }
+  ]
+}

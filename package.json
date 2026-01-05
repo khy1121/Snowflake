@@ -1,0 +1,36 @@
+{
+  "name": "mythic-workshop",
+  "version": "0.1.0",
+  "description": "Hybrid Casual Game: Mythic Workshop (Idle + Growth)",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "prebuild": "expo prebuild --clean",
+    "build:dev-client": "eas build --platform android --profile preview"
+  },
+  "dependencies": {
+    "expo": "^51.0.0",
+    "expo-dev-client": "^3.0.0",
+    "react": "^18.2.0",
+    "react-native": "^0.74.0",
+    "@shopify/react-native-skia": "^1.0.0",
+    "zustand": "^4.4.0",
+    "react-native-mmkv": "^2.11.0",
+    "react-navigation": "^6.1.0",
+    "@react-navigation/native": "^6.1.0",
+    "@react-navigation/bottom-tabs": "^6.5.0",
+    "@react-navigation/stack": "^6.3.0",
+    "react-native-screens": "^3.29.0",
+    "react-native-safe-area-context": "^4.8.0",
+    "react-native-gesture-handler": "^2.14.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.74.0",
+    "typescript": "^5.3.0"
+  },
+  "private": true
+}
